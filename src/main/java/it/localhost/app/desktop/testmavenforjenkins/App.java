@@ -1,13 +1,19 @@
 package it.localhost.app.desktop.testmavenforjenkins;
 
 /**
- * Hello world!
+ * Test for Maven,Jenkins,GitHub
  *
  */
 public class App 
 {
+    /**
+     * Entry-Point
+     * 
+     * @param args 
+     */
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        PrintUtils.PrintMessage("Hello World!");
     }
+    
 }
